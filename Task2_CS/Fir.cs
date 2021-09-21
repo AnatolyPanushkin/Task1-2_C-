@@ -9,7 +9,7 @@
         {
             Sort = sort;
         }
-        public virtual void GetOld()
+        public override void GetOld()
         {
             Age += 1;
         }

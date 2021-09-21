@@ -18,7 +18,7 @@
                 }
             }
         }
-        protected string Age { get; set; }
+        protected int Age { get; set; }
         protected static string timeOfyear;
 
         public Plant(string name)
@@ -26,6 +26,8 @@
             this.Name = name;
         }
 
+        public abstract void GetOld();
+        public abstract void GrowUp();
         protected void ChangeTimeOfYear(string time)
         {
             timeOfyear = time;

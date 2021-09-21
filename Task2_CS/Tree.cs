@@ -41,10 +41,13 @@
             Species = species;
         }
 
-        
-       
+        public override void GetOld()
+        {
+            Age += 1;
+        }
 
-        public virtual void GrowUp()
+
+        public override void GrowUp()
         {
             Height += 10;
         }

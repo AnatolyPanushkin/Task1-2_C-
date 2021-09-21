@@ -77,6 +77,12 @@ namespace Task1_CS
         
         //Конструкторы
         public Plant(){}
+
+        public Plant(string name, int age)
+        {
+            this.Name = name;
+            this.Age = age;
+        }
         public Plant(string name, int age, int height, string lifeTime, bool fruitly)
         {
             this.Name= name;

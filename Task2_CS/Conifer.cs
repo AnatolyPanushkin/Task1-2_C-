@@ -29,9 +29,9 @@ namespace Task2_CS
             Console.WriteLine("penicone is grown!");
         }
 
-        public override void GrowUp()
+       public override void GrowUp()
         {
-            Height += 10;
+           Height += 10;
         }
     }
 }

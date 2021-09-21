@@ -12,10 +12,8 @@ namespace Task1_CS
             plant.Watering();
             plant.GrowUp(5,201);
             plant.Harvest();
-            Console.WriteLine(plant.Name);
-            Console.WriteLine(plant.Age);
-            Console.WriteLine(plant.Height);
-            Console.WriteLine(plant?.LifeTime);
+            Console.WriteLine("Название:{0}, Возраст:{1}, Высота:{2}, Многолетний/Однолетний:{3}, Плодовое/Не плодовое:{4}", plant.Name,
+                plant.Age,plant.Height,plant.LifeTime,plant.Fruitly);
         }
     }
 }
